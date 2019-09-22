@@ -6,6 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+# Dataset, checkpoints and output should not upload
+Dataset
+hdf5
+Checkpoints
+Outputs
+
+# Floyd
+.floydexpt
+.floydignore
+
 # Distribution / packaging
 .Python
 build/
